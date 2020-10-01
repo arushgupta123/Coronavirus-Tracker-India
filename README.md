@@ -1,4 +1,2 @@
-# CoronaVirus-Tracker-for-India
-A tested repository for tracking Corona Virus cases in India using HTML and JavaScript Fetch API...
-
-Please read the comments and edit the code...
+You can also add the datewise cases using the Fetch API.
+All you need is a JSON file and fetch data.
