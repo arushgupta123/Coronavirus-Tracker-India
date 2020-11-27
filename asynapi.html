@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
-    <title>Corona tracker India</title>
+    <title>Coronavirus Cases Tracker (India)/title>
 <script type="text/javascript">
-    async function getCovidApi() {
+    async function RecieveApi() {
         const JSONData = await fetch("https://api.covid19india.org/state_district_wise.json");
         console.log(JSONData);
 
@@ -29,7 +29,7 @@
     //using the fetch api you can also get the data date wise
     //the json file:  https://api.covid19india.org/data.json
 
-    getCovidApi();
+    RecieveApi();
 </script>
 </head>
 
