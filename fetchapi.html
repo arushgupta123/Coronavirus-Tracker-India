@@ -1,10 +1,10 @@
 <script type="text/javascript">
-    function coronareuse(ccode) {
+    function hi(nc) {
         fetch("https://api.covid19india.org/state_district_wise.json").then( (imported_data) => {
             return imported_data.json();
-        }).then( (actualdata) => {
-            console.log(actualdata);
-            const country_name = actualdata.Countries[`${ccode}`];
+        }).then( (RealData) => {
+            console.log(RealData);
+            const countryName = RealData.Countries[`${nc}`];
             //
         }).catch( (error) => {
             console.log(error)
